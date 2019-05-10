@@ -1,0 +1,21 @@
+.bg {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/2051002/pexels-photo-2051002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+#welcome {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
